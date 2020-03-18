@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+#wrapper {
+    width: 100vh;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.case {
+    width: 12.5%;
+    height: 12.5%;
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blanc {
+    background-color: #fff;
+    color: black;
+}
+
+.noir {
+    background-color: black;
+    color: white;
+}
