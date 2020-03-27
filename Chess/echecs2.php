@@ -34,20 +34,6 @@ for($i = 1; $i <= 64; $i++) {
 
 
 
-$tableau = ['Jean', 'Marc', 'Goulougoulou'];
-
-foreach($tableau as $value) {
-    echo maFonction($value);
-    // La fonction va return un truc (exemple un bouton) qui sera construit en fonction de $value
-}
-
-function maFonction($value) {
-    return "<p>$value</p>";
-}
-
-
-
-
 
 
 
