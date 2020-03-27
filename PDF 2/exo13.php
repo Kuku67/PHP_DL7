@@ -25,7 +25,7 @@ class Voiture {
 
     // RETOURNERA LES INFOS PRINCIPALES POUR ALLEGER LE CODE
     public function getInfos() {
-        return $this->marque} {$this->modele;
+        return $this->marque." ".$this->modele;
     }
 
     public function __toString() {
