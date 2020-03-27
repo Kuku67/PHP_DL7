@@ -34,8 +34,8 @@ class VoitureElec extends Voiture {
     }
 
     public function getInfos() {
-        parent::getInfos();
-        return "Autonomie : {$this->autonomie}<br>";
+        $msg = parent::getInfos();
+        return $msg.= "Autonomie : {$this->autonomie}<br>";
     }
 }
 
