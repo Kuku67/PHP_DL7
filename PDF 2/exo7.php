@@ -15,10 +15,12 @@ function showCheckboxes($array) {
         }
     $choiceValue = strtolower($choice);
     // EACH DIV IS ADDED NEXT TO THE PREVIOUS, NEEDED TO RETURN ONLY 1 VALUE AS COMPLETE HTML
-    $checkbox.= "<div>
-                    <input type='checkbox' id='$choiceValue' name='$choiceValue' $value>
-                    <label for='$choiceValue'>$choice</label>
-                </div>";
+    $checkbox.= "<form method='post'>
+                    <div>
+                        <input type='checkbox' id='$choiceValue' name='$choiceValue' $value>
+                        <label for='$choiceValue'>$choice</label>
+                    </div>
+                </form>";
     }
     return $checkbox;
 }
